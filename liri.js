@@ -1,11 +1,11 @@
 require("dotenv").config({ path: ".env" });
-require("./keys.js");
+var keys=require("./keys.js");
 require('node-spotify-api');
 console.log("here we are")
 require("fs");
-// var spotify=require('node-spotify-api');
+var Spotify=require('node-spotify-api');
 
-// var spotify = new Spotify(keys.spotify);
+var spotify = new Spotify(keys.spotify);
 
 
 var inquirer = require("inquirer");
@@ -23,10 +23,10 @@ if (typeSearch === "concert-this") {
 if (typeSearch === "movie-this") {
     movie();
 }
-// if (typeSearch = "spotify-this-song") {
-//     console.log("thus worked")
-//     spotifyx();
-// }
+if (typeSearch = "spotify-this-song") {
+    console.log("thus worked")
+    spotifyx();
+}
 
 function bands() {
     var artist = searchContent.join("");
@@ -66,18 +66,26 @@ function movie() {
             }
         )
 }
-// function spotifyx() {
+function spotifyx() {
 
-//     console.log("spotify function connected")
-//     var spotifySearch = searchContent.join(" ")
-//     console.log(spotifySearch);
-//     spotify
-//     .search({ type: 'track', query: spotifySearch })
-//     .then(function (response){
-//     console.log("response.data")        
+    console.log("spotify function connected")
+    var spotifySearch = searchContent.join(" ")
+    spotify
+    .search({ type: 'track', query: spotifySearch })
+    .then(function (response){
+        var song =spotifySearch;
+        var songSearch=response.tracks.items[0].album.artists[0];
+        var artist=response.tracks.items[0].album.artists[0].name;
+        var album=response.tracks.items[0].album.name;
+        var previewURL=response.tracks.items[0].preview_url;
+        if(previewURL===null){
+            var previewURL="No Preview URL Available"
+        }
+        console.log(`${song} by ${artist}. Album:${album}
+        preview it here! ${previewURL} `)        
 
-//     })
-// }
+    })
+}
 
 
 
