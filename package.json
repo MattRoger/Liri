@@ -1,0 +1,26 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "liri bot",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattRoger/Liri.git"
+  },
+  "keywords": [],
+  "author": "Matt Roger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattRoger/Liri/issues"
+  },
+  "homepage": "https://github.com/MattRoger/Liri#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0",
+    "inquirer": "^7.0.0",
+    "node-spotify-api": "^1.1.1"
+  }
+}
