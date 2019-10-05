@@ -9,8 +9,8 @@ Liri bot is a node search tool for Omdb api, bandsInTown api, and spotify.
 Enter a concert-this followed by the band you would like to search for.
 example: node liri.js concert-this phil collins
 *highlighted in yellow*
-This returns the Venue, state, and city the artist is preforming at.
 ![concert-this](https://github.com/MattRoger/Liri/blob/master/liri/concert-this.png?raw=true)
+This returns the Venue, state, and city the artist is preforming at.
 
 **movie-this**
 example: node liri.js movie-this die hard
