@@ -23,3 +23,7 @@ example: node liri.js do-what-it-says
 this reads from the random.txt file and finds the song in the file on spotify.
 
 liri also logs each search to the **mySearch.txt** file with a time and date stamp. 
+
+**See liri in action**
+https://drive.google.com/open?id=1BvtpHhYFhQdkqiJVo61CsyuwNjISSsgb - automatic!
+
