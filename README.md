@@ -21,7 +21,7 @@ returns the movie name, release year,actors, plot, imdb and rotten tomatoes rati
 **spotify-this-song**
 example: node liri.js spotify-this-song ring of fire
 *highlighted in yellow*
-![concert-this](https://github.com/MattRoger/Liri/blob/master/liri/spotify-this.png?raw=true)
+https://github.com/MattRoger/Liri/blob/master/liri/spotitfy-this.png?raw=true
 returns the song, artist, album, and if available and preview url. 
 If no preview url is avaivable, liri will console.log no preview available.
 *highlighted in orange*
