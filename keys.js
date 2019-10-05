@@ -1,8 +1,6 @@
 require("./liri.js");
 require("dotenv").config({ path: ".env" });
 
-console.log('this is loaded');
-
 function Spotify(id, secret){
   this.id=id,
   this.secret=secret
