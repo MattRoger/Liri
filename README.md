@@ -15,13 +15,13 @@ This returns the Venue, state, and city the artist is preforming at.
 **movie-this**
 example: node liri.js movie-this die hard
 *highlighted in yellow*
-![concert-this](https://github.com/MattRoger/Liri/blob/master/liri/movie-this.png?raw=true)
+![movie-this](https://github.com/MattRoger/Liri/blob/master/liri/movie-this.png?raw=true)
 returns the movie name, release year,actors, plot, imdb and rotten tomatoes ratings, filming locations, and release languages. 
 
 **spotify-this-song**
 example: node liri.js spotify-this-song ring of fire
 *highlighted in yellow*
-https://github.com/MattRoger/Liri/blob/master/liri/spotitfy-this.png?raw=true
+![spotify-this](https://github.com/MattRoger/Liri/blob/master/liri/spotitfy-this.png?raw=true)
 returns the song, artist, album, and if available and preview url. 
 If no preview url is avaivable, liri will console.log no preview available.
 *highlighted in orange*
@@ -29,7 +29,7 @@ If no preview url is avaivable, liri will console.log no preview available.
 **do-what-it-says**
 example: node liri.js do-what-it-says
 *highlighted in yellow*
-![concert-this](https://github.com/MattRoger/Liri/blob/master/liri/do-what-it-says.png?raw=true)
+![do-what-it-says-this](https://github.com/MattRoger/Liri/blob/master/liri/do-what-it-says.png?raw=true)
 this reads from the random.txt file and finds the song in the file on spotify.
 
 liri also logs each search to the **mySearch.txt** file with a time and date stamp. 
