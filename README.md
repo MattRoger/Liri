@@ -52,5 +52,14 @@ liri also logs each search to the **mySearch.txt** file with a time and date sta
 https://drive.google.com/open?id=1BvtpHhYFhQdkqiJVo61CsyuwNjISSsgb 
 
 
+Liri demonstrates use of npm packages deployed by node. Packages includes:
+Axios to search apis,
+Moment to convert concert date, and for time stamp function in mySearch.tx,
+fs to read and write from and to the txt files,
+Node-Spotify-This to seach spotify for song details. 
+
+
+
+
 
 
