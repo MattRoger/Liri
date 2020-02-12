@@ -13,8 +13,6 @@ example: node liri.js concert-this phil collins
 
 This returns the Venue, state, and city the artist is preforming at.
 
-![test](https://github.com/MattRoger/Liri/blob/master/liri/concert-this.png?raw=true)
-
 **movie-this**
 example: node liri.js movie-this die hard
 *highlighted in yellow*
